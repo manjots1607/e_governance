@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>egovernance</title>
+        <vendor>Avtar Singh</vendor>
+        <homepage href=""/>
+        <description>egovernance</description>
+        <description kind="short">egovernance</description>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="egovernance.jar" main="true"/>
+    <jar href="lib/mysql-connector-java-5.1.23-bin.jar"/>
+<jar href="lib/AbsoluteLayout.jar"/>
+</resources>
+    <application-desc main-class="egovernance.Egovernance">
+    </application-desc>
+</jnlp>
